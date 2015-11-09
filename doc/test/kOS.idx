@@ -1,0 +1,644 @@
+\indexentry{Career {[}struct{]}|hyperpage}{76}
+\indexentry{Career:CANTRACKOBJECTS|hyperpage}{77}
+\indexentry{Career:PATCHLIMIT|hyperpage}{77}
+\indexentry{Career:CANMAKENODES|hyperpage}{77}
+\indexentry{Career:CANDOACTIONS|hyperpage}{77}
+\indexentry{BREAK|hyperpage}{86}
+\indexentry{IF|hyperpage}{86}
+\indexentry{LOCK|hyperpage}{87}
+\indexentry{UNLOCK|hyperpage}{87}
+\indexentry{UNTIL|hyperpage}{87}
+\indexentry{FOR|hyperpage}{88}
+\indexentry{FROM|hyperpage}{88}
+\indexentry{WAIT|hyperpage}{91}
+\indexentry{WHEN|hyperpage}{92}
+\indexentry{ON|hyperpage}{92}
+\indexentry{PRESERVE|hyperpage}{93}
+\indexentry{Boolean Operators|hyperpage}{94}
+\indexentry{Fundamental Constants|hyperpage}{115}
+\indexentry{Constant:G|hyperpage}{115}
+\indexentry{Constant:E|hyperpage}{115}
+\indexentry{Constant:PI|hyperpage}{115}
+\indexentry{Constant:C|hyperpage}{115}
+\indexentry{Constant:AtmToKPa|hyperpage}{116}
+\indexentry{Constant:KPaToATM|hyperpage}{116}
+\indexentry{Constant:DegToRad|hyperpage}{116}
+\indexentry{Constant:RadToDeg|hyperpage}{116}
+\indexentry{Mathematical Functions|hyperpage}{116}
+\indexentry{ABS()|hyperpage}{116}
+\indexentry{CEILING()|hyperpage}{116}
+\indexentry{FLOOR()|hyperpage}{116}
+\indexentry{LN()|hyperpage}{117}
+\indexentry{LOG10()|hyperpage}{117}
+\indexentry{MOD()|hyperpage}{117}
+\indexentry{MIN()|hyperpage}{117}
+\indexentry{MAX()|hyperpage}{117}
+\indexentry{RANDOM()|hyperpage}{117}
+\indexentry{ROUND()|hyperpage}{117}
+\indexentry{ROUND()|hyperpage}{117}
+\indexentry{SQRT()|hyperpage}{117}
+\indexentry{Trigonometric Functions|hyperpage}{117}
+\indexentry{SIN()|hyperpage}{118}
+\indexentry{COS()|hyperpage}{118}
+\indexentry{TAN()|hyperpage}{118}
+\indexentry{ARCSIN()|hyperpage}{118}
+\indexentry{ARCCOS()|hyperpage}{118}
+\indexentry{ARCTAN()|hyperpage}{118}
+\indexentry{ARCTAN2()|hyperpage}{119}
+\indexentry{V()|hyperpage}{119}
+\indexentry{Vector {[}struct{]}|hyperpage}{119}
+\indexentry{Vector:X|hyperpage}{120}
+\indexentry{Vector:Y|hyperpage}{120}
+\indexentry{Vector:Z|hyperpage}{120}
+\indexentry{Vector:MAG|hyperpage}{120}
+\indexentry{Vector:NORMALIZED|hyperpage}{120}
+\indexentry{Vector:SQRMAGNITUDE|hyperpage}{120}
+\indexentry{Vector:DIRECTION|hyperpage}{120}
+\indexentry{Vector:VEC|hyperpage}{121}
+\indexentry{vector multiplication|hyperpage}{121}
+\indexentry{vector addition|hyperpage}{121}
+\indexentry{vector subtraction|hyperpage}{121}
+\indexentry{VDOT()|hyperpage}{121}
+\indexentry{VECTORDOTPRODUCT()|hyperpage}{122}
+\indexentry{VCRS()|hyperpage}{122}
+\indexentry{VECTORCROSSPRODUCT()|hyperpage}{122}
+\indexentry{VANG()|hyperpage}{122}
+\indexentry{VECTORANGLE()|hyperpage}{122}
+\indexentry{VXCL()|hyperpage}{123}
+\indexentry{VECTOREXCLUDE()|hyperpage}{123}
+\indexentry{R()|hyperpage}{124}
+\indexentry{Q()|hyperpage}{124}
+\indexentry{HEADING()|hyperpage}{124}
+\indexentry{LOOKDIRUP()|hyperpage}{124}
+\indexentry{ANGLEAXIS()|hyperpage}{124}
+\indexentry{ROTATEFROMTO()|hyperpage}{125}
+\indexentry{Direction {[}struct{]}|hyperpage}{125}
+\indexentry{Direction:PITCH|hyperpage}{126}
+\indexentry{Direction:YAW|hyperpage}{126}
+\indexentry{Direction:ROLL|hyperpage}{126}
+\indexentry{Direction:FOREVECTOR|hyperpage}{126}
+\indexentry{Direction:TOPVECTOR|hyperpage}{127}
+\indexentry{Direction:STARVECTOR|hyperpage}{127}
+\indexentry{Direction:INVERSE|hyperpage}{127}
+\indexentry{LATLNG()|hyperpage}{129}
+\indexentry{GeoCoordinates {[}struct{]}|hyperpage}{129}
+\indexentry{GeoCoordinates:LAT|hyperpage}{129}
+\indexentry{GeoCoordinates:LNG|hyperpage}{129}
+\indexentry{GeoCoordinates:DISTANCE|hyperpage}{129}
+\indexentry{GeoCoordinates:TERRAINHEIGHT|hyperpage}{129}
+\indexentry{GeoCoordinates:HEADING|hyperpage}{129}
+\indexentry{GeoCoordinates:BEARING|hyperpage}{129}
+\indexentry{GeoCoordinates:POSITION|hyperpage}{130}
+\indexentry{GeoCoordinates:ALTITUDEPOSITION|hyperpage}{130}
+\indexentry{SHIP-RAW (Reference Frame)|hyperpage}{131}
+\indexentry{SOI-RAW (Reference Frame)|hyperpage}{131}
+\indexentry{RAW-RAW (Reference Frame)|hyperpage}{131}
+\indexentry{Control {[}struct{]}|hyperpage}{139}
+\indexentry{RCS|hyperpage}{140}
+\indexentry{SAS|hyperpage}{141}
+\indexentry{LIGHTS|hyperpage}{141}
+\indexentry{BRAKES|hyperpage}{141}
+\indexentry{TARGET|hyperpage}{141}
+\indexentry{WARP|hyperpage}{142}
+\indexentry{POSITIONAT()|hyperpage}{143}
+\indexentry{VELOCITYAT()|hyperpage}{143}
+\indexentry{ORBITAT()|hyperpage}{144}
+\indexentry{LIST (command)|hyperpage}{144}
+\indexentry{CLEARSCREEN|hyperpage}{152}
+\indexentry{PRINT|hyperpage}{152}
+\indexentry{SET TERMINAL:WIDTH. GET TERMINAL:WIDTH|hyperpage}{152}
+\indexentry{SET TERMINAL:HEIGHT. GET TERMINAL:HEIGHT|hyperpage}{152}
+\indexentry{AT()|hyperpage}{152}
+\indexentry{MAPVIEW|hyperpage}{153}
+\indexentry{REBOOT|hyperpage}{153}
+\indexentry{SHUTDOWN|hyperpage}{153}
+\indexentry{VECDRAW|hyperpage}{153}
+\indexentry{VECDRAWARGS|hyperpage}{153}
+\indexentry{HUDTEXT|hyperpage}{153}
+\indexentry{Orbit {[}struct{]}|hyperpage}{159}
+\indexentry{Orbit:NAME|hyperpage}{159}
+\indexentry{Orbit:APOAPSIS|hyperpage}{159}
+\indexentry{Orbit:PERIAPSIS|hyperpage}{159}
+\indexentry{Orbit:BODY|hyperpage}{159}
+\indexentry{Orbit:PERIOD|hyperpage}{159}
+\indexentry{Orbit:INCLINATION|hyperpage}{160}
+\indexentry{Orbit:ECCENTRICITY|hyperpage}{160}
+\indexentry{Orbit:SEMIMAJORAXIS|hyperpage}{160}
+\indexentry{Orbit:SEMIMINORAXIS|hyperpage}{160}
+\indexentry{Orbit:LAN|hyperpage}{160}
+\indexentry{Orbit:LONGITUDEOFASCENDINGNODE|hyperpage}{160}
+\indexentry{Orbit:ARGUMENTOFPERIAPSIS|hyperpage}{160}
+\indexentry{Orbit:TRUEANOMALY|hyperpage}{160}
+\indexentry{Orbit:MEANANOMALYATEPOCH|hyperpage}{160}
+\indexentry{Orbit:TRANSITION|hyperpage}{161}
+\indexentry{Orbit:POSITION|hyperpage}{161}
+\indexentry{Orbit:VELOCITY|hyperpage}{161}
+\indexentry{Orbit:NEXTPATCH|hyperpage}{161}
+\indexentry{Orbit:HASNEXTPATCH|hyperpage}{161}
+\indexentry{Orbit:PATCHES|hyperpage}{161}
+\indexentry{Orbitable {[}struct{]}|hyperpage}{162}
+\indexentry{Orbitable:NAME|hyperpage}{163}
+\indexentry{Orbitable:HASBODY|hyperpage}{163}
+\indexentry{Orbitable:HASORBIT|hyperpage}{163}
+\indexentry{Orbitable:HASOBT|hyperpage}{163}
+\indexentry{Orbitable:BODY|hyperpage}{163}
+\indexentry{Orbitable:OBT|hyperpage}{164}
+\indexentry{Orbitable:ORBIT|hyperpage}{164}
+\indexentry{Orbitable:UP|hyperpage}{164}
+\indexentry{Orbitable:NORTH|hyperpage}{164}
+\indexentry{Orbitable:PROGRADE|hyperpage}{164}
+\indexentry{Orbitable:SRFPROGRADE|hyperpage}{164}
+\indexentry{Orbitable:RETROGRADE|hyperpage}{164}
+\indexentry{Orbitable:SRFRETROGRADE|hyperpage}{164}
+\indexentry{Orbitable:POSITION|hyperpage}{165}
+\indexentry{Orbitable:VELOCITY|hyperpage}{165}
+\indexentry{Orbitable:DISTANCE|hyperpage}{165}
+\indexentry{Orbitable:DIRECTION|hyperpage}{165}
+\indexentry{Orbitable:LATITUDE|hyperpage}{165}
+\indexentry{Orbitable:LONGITUDE|hyperpage}{165}
+\indexentry{Orbitable:ALTITUDE|hyperpage}{165}
+\indexentry{Orbitable:GEOPOSITION|hyperpage}{165}
+\indexentry{Orbitable:PATCHES|hyperpage}{165}
+\indexentry{Orbitable:APOAPSIS|hyperpage}{166}
+\indexentry{Orbitable:PERIAPSIS|hyperpage}{166}
+\indexentry{OrbitableVelocity {[}struct{]}|hyperpage}{166}
+\indexentry{OrbitableVelocity:ORBIT|hyperpage}{166}
+\indexentry{OrbitableVelocity:SURFACE|hyperpage}{166}
+\indexentry{Atmosphere {[}struct{]}|hyperpage}{167}
+\indexentry{Atmosphere:BODY|hyperpage}{167}
+\indexentry{Atmosphere:EXISTS|hyperpage}{167}
+\indexentry{Atmosphere:OXYGEN|hyperpage}{167}
+\indexentry{Atmosphere:SCALE|hyperpage}{167}
+\indexentry{Atmosphere:SEALEVELPRESSURE|hyperpage}{167}
+\indexentry{Atmosphere:HEIGHT|hyperpage}{167}
+\indexentry{Body {[}struct{]}|hyperpage}{169}
+\indexentry{Body:NAME|hyperpage}{169}
+\indexentry{Body:DESCRIPTION|hyperpage}{169}
+\indexentry{Body:MASS|hyperpage}{169}
+\indexentry{Body:ALTITUDE|hyperpage}{169}
+\indexentry{Body:ROTATIONPERIOD|hyperpage}{169}
+\indexentry{Body:RADIUS|hyperpage}{169}
+\indexentry{Body:MU|hyperpage}{169}
+\indexentry{Body:ATM|hyperpage}{169}
+\indexentry{Body:ANGULARVEL|hyperpage}{169}
+\indexentry{Body:GEOPOSITIONOF|hyperpage}{169}
+\indexentry{Body:ALTITUDEOF|hyperpage}{170}
+\indexentry{Body:SOIRADIUS|hyperpage}{170}
+\indexentry{Body:ROTATIONANGLE|hyperpage}{170}
+\indexentry{AggregateResource {[}struct{]}|hyperpage}{170}
+\indexentry{AggregateResource:NAME|hyperpage}{171}
+\indexentry{AggregateResource:AMOUNT|hyperpage}{171}
+\indexentry{AggregateResource:CAPACITY|hyperpage}{171}
+\indexentry{AggregateResource:PARTS|hyperpage}{171}
+\indexentry{ALT {[}struct{]}|hyperpage}{171}
+\indexentry{CrewMember {[}struct{]}|hyperpage}{171}
+\indexentry{CrewMember:NAME|hyperpage}{172}
+\indexentry{CrewMember:GENDER|hyperpage}{172}
+\indexentry{CrewMember:EXPERIENCE|hyperpage}{172}
+\indexentry{CrewMember:TRAIT|hyperpage}{172}
+\indexentry{CrewMember:TOURIST|hyperpage}{172}
+\indexentry{CrewMember:PART|hyperpage}{172}
+\indexentry{DockingPort {[}struct{]}|hyperpage}{173}
+\indexentry{DockingPort:ACQUIRERANGE|hyperpage}{173}
+\indexentry{DockingPort:ACQUIREFORCE|hyperpage}{173}
+\indexentry{DockingPort:ACQUIRETORQUE|hyperpage}{173}
+\indexentry{DockingPort:REENGAGEDDISTANCE|hyperpage}{173}
+\indexentry{DockingPort:DOCKEDSHIPNAME|hyperpage}{173}
+\indexentry{DockingPort:NODEPOSITION|hyperpage}{173}
+\indexentry{DockingPort:NODETYPE|hyperpage}{174}
+\indexentry{DockingPort:PORTFACING|hyperpage}{174}
+\indexentry{DockingPort:STATE|hyperpage}{174}
+\indexentry{DockingPort:UNDOCK()|hyperpage}{174}
+\indexentry{DockingPort:TARGETABLE|hyperpage}{174}
+\indexentry{Element {[}struct{]}|hyperpage}{175}
+\indexentry{Element:UID|hyperpage}{175}
+\indexentry{Element:NAME|hyperpage}{175}
+\indexentry{Element:PARTS|hyperpage}{175}
+\indexentry{Element:DOCKINGPORTS|hyperpage}{175}
+\indexentry{Element:VESSEL|hyperpage}{175}
+\indexentry{Element:RESOURCES|hyperpage}{176}
+\indexentry{Engine {[}struct{]}|hyperpage}{176}
+\indexentry{Engine:ACTIVATE()|hyperpage}{176}
+\indexentry{Engine:SHUTDOWN()|hyperpage}{177}
+\indexentry{Engine:THRUSTLIMIT|hyperpage}{177}
+\indexentry{Engine:MAXTHRUST|hyperpage}{177}
+\indexentry{Engine:MAXTHRUSTAT()|hyperpage}{177}
+\indexentry{Engine:THRUST|hyperpage}{177}
+\indexentry{Engine:AVAILABLETHRUST|hyperpage}{177}
+\indexentry{Engine:AVAILABLETHRUSTAT()|hyperpage}{177}
+\indexentry{Engine:FUELFLOW|hyperpage}{177}
+\indexentry{Engine:ISP|hyperpage}{178}
+\indexentry{Engine:ISPAT()|hyperpage}{178}
+\indexentry{Engine:VACUUMISP|hyperpage}{178}
+\indexentry{Engine:VISP|hyperpage}{178}
+\indexentry{Engine:SEALEVELISP|hyperpage}{178}
+\indexentry{Engine:SLISP|hyperpage}{178}
+\indexentry{Engine:FLAMEOUT|hyperpage}{178}
+\indexentry{Engine:IGNITION|hyperpage}{178}
+\indexentry{Engine:ALLOWRESTART|hyperpage}{179}
+\indexentry{Engine:ALLOWSHUTDOWN|hyperpage}{179}
+\indexentry{Engine:THROTTLELOCK|hyperpage}{179}
+\indexentry{ETA {[}struct{]}|hyperpage}{179}
+\indexentry{ETA:APOAPSIS|hyperpage}{179}
+\indexentry{ETA:PERIAPSIS|hyperpage}{179}
+\indexentry{ETA:TRANSITION|hyperpage}{179}
+\indexentry{Gimbal {[}struct{]}|hyperpage}{180}
+\indexentry{Gimbal:RANGE|hyperpage}{180}
+\indexentry{Gimbal:RESPONSESPEED|hyperpage}{180}
+\indexentry{Gimbal:PITCHANGLE|hyperpage}{180}
+\indexentry{Gimbal:YAWANGLE|hyperpage}{180}
+\indexentry{Gimbal:ROLLANGLE|hyperpage}{180}
+\indexentry{Gimbal:LOCK|hyperpage}{180}
+\indexentry{NODE()|hyperpage}{181}
+\indexentry{ADD|hyperpage}{181}
+\indexentry{REMOVE|hyperpage}{182}
+\indexentry{NEXTNODE|hyperpage}{182}
+\indexentry{ManeuverNode {[}struct{]}|hyperpage}{182}
+\indexentry{ManeuverNode:DELTAV|hyperpage}{183}
+\indexentry{ManeuverNode:BURNVECTOR|hyperpage}{183}
+\indexentry{ManeuverNode:ETA|hyperpage}{183}
+\indexentry{ManeuverNode:PROGRADE|hyperpage}{183}
+\indexentry{ManeuverNode:RADIALOUT|hyperpage}{183}
+\indexentry{ManeuverNode:NORMAL|hyperpage}{183}
+\indexentry{ManeuverNode:ORBIT|hyperpage}{184}
+\indexentry{Part {[}struct{]}|hyperpage}{184}
+\indexentry{Part:NAME|hyperpage}{184}
+\indexentry{Part:TITLE|hyperpage}{185}
+\indexentry{Part:TAG|hyperpage}{185}
+\indexentry{Part:CONTROLFROM|hyperpage}{185}
+\indexentry{Part:STAGE|hyperpage}{185}
+\indexentry{Part:UID|hyperpage}{186}
+\indexentry{Part:ROTATION|hyperpage}{186}
+\indexentry{Part:POSITION|hyperpage}{186}
+\indexentry{Part:FACING|hyperpage}{186}
+\indexentry{Part:MASS|hyperpage}{186}
+\indexentry{Part:WETMASS|hyperpage}{186}
+\indexentry{Part:DRYMASS|hyperpage}{186}
+\indexentry{Part:RESOURCES|hyperpage}{186}
+\indexentry{Part:TARGETABLE|hyperpage}{187}
+\indexentry{Part:SHIP|hyperpage}{187}
+\indexentry{Part:GETMODULE()|hyperpage}{187}
+\indexentry{Part:MODULES|hyperpage}{187}
+\indexentry{Part:ALLMODULES|hyperpage}{187}
+\indexentry{Part:PARENT|hyperpage}{187}
+\indexentry{Part:HASPHYSICS|hyperpage}{187}
+\indexentry{Part:HASPARENT|hyperpage}{187}
+\indexentry{Part:CHILDREN|hyperpage}{187}
+\indexentry{PartModule {[}struct{]}|hyperpage}{188}
+\indexentry{PartModule:NAME|hyperpage}{188}
+\indexentry{PartModule:PART|hyperpage}{188}
+\indexentry{PartModule:ALLFIELDS|hyperpage}{188}
+\indexentry{PartModule:ALLFIELDNAMES|hyperpage}{189}
+\indexentry{PartModule:ALLEVENTS|hyperpage}{189}
+\indexentry{PartModule:ALLEVENTNAMES|hyperpage}{189}
+\indexentry{PartModule:ALLACTIONS|hyperpage}{189}
+\indexentry{PartModule:ALLACTIONNAMES|hyperpage}{189}
+\indexentry{PartModule:GETFIELD()|hyperpage}{189}
+\indexentry{PartModule:SETFIELD()|hyperpage}{190}
+\indexentry{PartModule:DOEVENT()|hyperpage}{190}
+\indexentry{PartModule:DOACTION()|hyperpage}{190}
+\indexentry{PartModule:HASFIELD()|hyperpage}{190}
+\indexentry{PartModule:HASEVENT()|hyperpage}{190}
+\indexentry{PartModule:HASACTION()|hyperpage}{190}
+\indexentry{Resource {[}struct{]}|hyperpage}{192}
+\indexentry{Resource:NAME|hyperpage}{192}
+\indexentry{Resource:AMOUNT|hyperpage}{192}
+\indexentry{Resource:DENSITY|hyperpage}{192}
+\indexentry{Resource:CAPACITY|hyperpage}{193}
+\indexentry{Resource:TOGGLEABLE|hyperpage}{193}
+\indexentry{Resource:ENABLED|hyperpage}{193}
+\indexentry{ScienceExperimentModule {[}struct{]}|hyperpage}{193}
+\indexentry{ScienceExperimentModule:DEPLOY()|hyperpage}{194}
+\indexentry{ScienceExperimentModule:RESET()|hyperpage}{194}
+\indexentry{ScienceExperimentModule:TRANSMIT()|hyperpage}{194}
+\indexentry{ScienceExperimentModule:DUMP()|hyperpage}{194}
+\indexentry{ScienceExperimentModule:INOPERABLE|hyperpage}{194}
+\indexentry{ScienceExperimentModule:RERUNNABLE|hyperpage}{194}
+\indexentry{ScienceExperimentModule:DEPLOYED|hyperpage}{194}
+\indexentry{ScienceExperimentModule:HASDATA|hyperpage}{194}
+\indexentry{Sensor {[}struct{]}|hyperpage}{195}
+\indexentry{Sensor:ACTIVE|hyperpage}{195}
+\indexentry{Sensor:TYPE|hyperpage}{195}
+\indexentry{Sensor:DISPLAY|hyperpage}{195}
+\indexentry{Sensor:POWERCONSUMPTION|hyperpage}{195}
+\indexentry{Sensor:TOGGLE()|hyperpage}{195}
+\indexentry{Stage {[}struct{]}|hyperpage}{196}
+\indexentry{Stage:READY|hyperpage}{196}
+\indexentry{Stage:NUMBER|hyperpage}{196}
+\indexentry{Stage:Resources|hyperpage}{196}
+\indexentry{Vessel {[}struct{]}|hyperpage}{197}
+\indexentry{Vessel:CONTROL|hyperpage}{198}
+\indexentry{Vessel:BEARING|hyperpage}{198}
+\indexentry{Vessel:HEADING|hyperpage}{198}
+\indexentry{Vessel:MAXTHRUST|hyperpage}{198}
+\indexentry{Vessel:MAXTHRUSTAT()|hyperpage}{198}
+\indexentry{Vessel:AVAILABLETHRUST|hyperpage}{198}
+\indexentry{Vessel:AVAILABLETHRUSTAT()|hyperpage}{198}
+\indexentry{Vessel:FACING|hyperpage}{199}
+\indexentry{Vessel:MASS|hyperpage}{199}
+\indexentry{Vessel:WETMASS|hyperpage}{199}
+\indexentry{Vessel:DRYMASS|hyperpage}{199}
+\indexentry{Vessel:VERTICALSPEED|hyperpage}{199}
+\indexentry{Vessel:GROUNDSPEED|hyperpage}{199}
+\indexentry{Vessel:AIRSPEED|hyperpage}{199}
+\indexentry{Vessel:TERMVELOCITY|hyperpage}{199}
+\indexentry{Vessel:SHIPNAME|hyperpage}{200}
+\indexentry{Vessel:NAME|hyperpage}{200}
+\indexentry{Vessel:STATUS|hyperpage}{200}
+\indexentry{Vessel:TYPE|hyperpage}{200}
+\indexentry{Vessel:ANGULARMOMENTUM|hyperpage}{200}
+\indexentry{Vessel:ANGULARVEL|hyperpage}{200}
+\indexentry{Vessel:SENSORS|hyperpage}{200}
+\indexentry{Vessel:LOADED|hyperpage}{201}
+\indexentry{Vessel:LOADDISTANCE|hyperpage}{201}
+\indexentry{Vessel:ISDEAD|hyperpage}{201}
+\indexentry{Vessel:PATCHES|hyperpage}{201}
+\indexentry{Vessel:ROOTPART|hyperpage}{201}
+\indexentry{Vessel:PARTS|hyperpage}{201}
+\indexentry{Vessel:DOCKINGPORTS|hyperpage}{202}
+\indexentry{Vessel:ELEMENTS|hyperpage}{202}
+\indexentry{Vessel:RESOURCES|hyperpage}{202}
+\indexentry{Vessel:PARTSNAMED()|hyperpage}{202}
+\indexentry{Vessel:PARTSTITLED()|hyperpage}{202}
+\indexentry{Vessel:PARTSTAGGED()|hyperpage}{202}
+\indexentry{Vessel:PARTSDUBBED()|hyperpage}{202}
+\indexentry{Vessel:MODULESNAMED()|hyperpage}{202}
+\indexentry{Vessel:PARTSINGROUP()|hyperpage}{203}
+\indexentry{Vessel:MODULESINGROUP()|hyperpage}{203}
+\indexentry{Vessel:ALLPARTSTAGGED()|hyperpage}{203}
+\indexentry{Vessel:CREWCAPACITY|hyperpage}{203}
+\indexentry{Vessel:CREW()|hyperpage}{203}
+\indexentry{VesselSensors {[}struct{]}|hyperpage}{203}
+\indexentry{VesselSensors:ACC|hyperpage}{204}
+\indexentry{VesselSensors:PRES|hyperpage}{204}
+\indexentry{VesselSensors:TEMP|hyperpage}{204}
+\indexentry{VesselSensors:GRAV|hyperpage}{204}
+\indexentry{VesselSensors:LIGHT|hyperpage}{204}
+\indexentry{WAYPOINT()|hyperpage}{204}
+\indexentry{ALLWAYPOINTS()|hyperpage}{205}
+\indexentry{Waypoint {[}struct{]}|hyperpage}{205}
+\indexentry{Waypoint:NAME|hyperpage}{205}
+\indexentry{Waypoint:BODY|hyperpage}{205}
+\indexentry{Waypoint:GEOPOSITION|hyperpage}{205}
+\indexentry{Waypoint:POSITION|hyperpage}{205}
+\indexentry{Waypoint:ALTITUDE|hyperpage}{205}
+\indexentry{Waypoint:AGL|hyperpage}{206}
+\indexentry{Waypoint:NEARSURFACE|hyperpage}{206}
+\indexentry{Waypoint:GROUNDED|hyperpage}{206}
+\indexentry{Waypoint:INDEX|hyperpage}{206}
+\indexentry{Waypoint:CLUSTERED|hyperpage}{206}
+\indexentry{RED|hyperpage}{207}
+\indexentry{GREEN|hyperpage}{207}
+\indexentry{BLUE|hyperpage}{207}
+\indexentry{YELLOW|hyperpage}{207}
+\indexentry{CYAN|hyperpage}{207}
+\indexentry{MAGENTA|hyperpage}{207}
+\indexentry{PURPLE|hyperpage}{207}
+\indexentry{WHITE|hyperpage}{207}
+\indexentry{BLACK|hyperpage}{207}
+\indexentry{RGB()|hyperpage}{207}
+\indexentry{RGBA()|hyperpage}{207}
+\indexentry{RGBA {[}struct{]}|hyperpage}{207}
+\indexentry{HSV()|hyperpage}{208}
+\indexentry{HSVA()|hyperpage}{208}
+\indexentry{HSVA {[}struct{]}|hyperpage}{208}
+\indexentry{Config {[}struct{]}|hyperpage}{209}
+\indexentry{Config:IPU|hyperpage}{209}
+\indexentry{Config:UCP|hyperpage}{209}
+\indexentry{Config:STAT|hyperpage}{209}
+\indexentry{Config:RT2|hyperpage}{209}
+\indexentry{Config:ARCH|hyperpage}{210}
+\indexentry{Config:SAFE|hyperpage}{210}
+\indexentry{Config:AUDIOERR|hyperpage}{210}
+\indexentry{Config:VERBOSE|hyperpage}{210}
+\indexentry{Config:TELNET|hyperpage}{211}
+\indexentry{Config:TPORT|hyperpage}{211}
+\indexentry{Config:LOOPBACK|hyperpage}{211}
+\indexentry{FileInfo {[}struct{]}|hyperpage}{211}
+\indexentry{FileInfo:NAME|hyperpage}{212}
+\indexentry{FileInfo:FILETYPE|hyperpage}{212}
+\indexentry{FileInfo:SIZE|hyperpage}{212}
+\indexentry{HIGHLIGHT()|hyperpage}{212}
+\indexentry{HIGHLIGHT {[}struct{]}|hyperpage}{212}
+\indexentry{Iterator {[}struct{]}|hyperpage}{213}
+\indexentry{Iterator:RESET()|hyperpage}{214}
+\indexentry{Iterator:NEXT()|hyperpage}{214}
+\indexentry{Iterator:ATEND|hyperpage}{214}
+\indexentry{Iterator:INDEX|hyperpage}{214}
+\indexentry{Iterator:VALUE|hyperpage}{214}
+\indexentry{KUniverse {[}struct{]}|hyperpage}{214}
+\indexentry{KUniverse:CANREVERT|hyperpage}{214}
+\indexentry{KUniverse:CANREVERTTOLAUNCH|hyperpage}{215}
+\indexentry{KUniverse:CANREVERTTOEDITOR|hyperpage}{215}
+\indexentry{KUniverse:REVERTTOLAUNCH|hyperpage}{215}
+\indexentry{KUniverse:REVERTTOEDITOR|hyperpage}{215}
+\indexentry{KUniverse:REVERTTO()|hyperpage}{215}
+\indexentry{KUniverse:ORIGINEDITOR|hyperpage}{215}
+\indexentry{KUniverse:DEFAULTLOADDISTANCE|hyperpage}{215}
+\indexentry{KUniverse:ACTIVEVESSEL|hyperpage}{216}
+\indexentry{KUniverse:FORCEACTIVE()|hyperpage}{216}
+\indexentry{Lexicon {[}struct{]}|hyperpage}{217}
+\indexentry{Lexicon:ADD()|hyperpage}{217}
+\indexentry{Lexicon:CASESENSITIVE|hyperpage}{217}
+\indexentry{Lexicon:CASE|hyperpage}{217}
+\indexentry{Lexicon:REMOVE()|hyperpage}{218}
+\indexentry{Lexicon:CLEAR()|hyperpage}{218}
+\indexentry{Lexicon:LENGTH|hyperpage}{218}
+\indexentry{Lexicon:COPY()|hyperpage}{218}
+\indexentry{Lexicon:HASKEY()|hyperpage}{218}
+\indexentry{Lexicon:HASVALUE()|hyperpage}{218}
+\indexentry{Lexicon:DUMP|hyperpage}{218}
+\indexentry{Lexicon:KEYS|hyperpage}{218}
+\indexentry{Lexicon:VALUES|hyperpage}{219}
+\indexentry{List {[}struct{]}|hyperpage}{221}
+\indexentry{List:ADD()|hyperpage}{221}
+\indexentry{List:INSERT()|hyperpage}{221}
+\indexentry{List:REMOVE()|hyperpage}{221}
+\indexentry{List:CLEAR|hyperpage}{221}
+\indexentry{List:LENGTH|hyperpage}{221}
+\indexentry{List:ITERATOR|hyperpage}{221}
+\indexentry{List:COPY|hyperpage}{222}
+\indexentry{List:CONTAINS()|hyperpage}{222}
+\indexentry{List:SUBLIST()|hyperpage}{222}
+\indexentry{List:EMPTY|hyperpage}{222}
+\indexentry{List:DUMP|hyperpage}{222}
+\indexentry{LoadDistance {[}struct{]}|hyperpage}{225}
+\indexentry{SituationLoadDistance {[}struct{]}|hyperpage}{227}
+\indexentry{SituationLoadDistance:LOAD|hyperpage}{227}
+\indexentry{SituationLoadDistance:UNLOAD|hyperpage}{227}
+\indexentry{SituationLoadDistance:UNPACK|hyperpage}{227}
+\indexentry{SituationLoadDistance:PACK|hyperpage}{227}
+\indexentry{PIDLoop {[}struct{]}|hyperpage}{230}
+\indexentry{PIDLoop:LASTSAMPLETIME|hyperpage}{230}
+\indexentry{PIDLoop:KP|hyperpage}{230}
+\indexentry{PIDLoop:KI|hyperpage}{230}
+\indexentry{PIDLoop:KD|hyperpage}{230}
+\indexentry{PIDLoop:INPUT|hyperpage}{230}
+\indexentry{PIDLoop:SETPOINT|hyperpage}{231}
+\indexentry{PIDLoop:ERROR|hyperpage}{231}
+\indexentry{PIDLoop:OUTPUT|hyperpage}{231}
+\indexentry{PIDLoop:MAXOUTPUT|hyperpage}{231}
+\indexentry{PIDLoop:MINOUTPUT|hyperpage}{231}
+\indexentry{PIDLoop:ERRORSUM|hyperpage}{231}
+\indexentry{PIDLoop:PTERM|hyperpage}{231}
+\indexentry{PIDLoop:ITERM|hyperpage}{231}
+\indexentry{PIDLoop:DTERM|hyperpage}{232}
+\indexentry{PIDLoop:CHANGERATE|hyperpage}{232}
+\indexentry{PIDLoop:RESET()|hyperpage}{232}
+\indexentry{PIDLoop:UPDATE()|hyperpage}{232}
+\indexentry{ResourceTransfer {[}struct{]}|hyperpage}{233}
+\indexentry{RESOURCETRANSFER:STATUS|hyperpage}{233}
+\indexentry{RESOURCETRANSFER:MESSAGE|hyperpage}{234}
+\indexentry{RESOURCETRANSFER:GOAL|hyperpage}{234}
+\indexentry{RESOURCETRANSFER:TRANSFERRED|hyperpage}{234}
+\indexentry{RESOURCETRANSFER:RESOURCE|hyperpage}{234}
+\indexentry{RESOURCETRANSFER:ACTIVE|hyperpage}{234}
+\indexentry{SteeringManager {[}struct{]}|hyperpage}{235}
+\indexentry{SteeringManager:PITCHPID|hyperpage}{235}
+\indexentry{SteeringManager:YAWPID|hyperpage}{236}
+\indexentry{SteeringManager:ROLLPID|hyperpage}{236}
+\indexentry{SteeringManager:ENABLED|hyperpage}{236}
+\indexentry{SteeringManager:TARGET|hyperpage}{236}
+\indexentry{SteeringManager:RESETPIDS()|hyperpage}{236}
+\indexentry{SteeringManager:SHOWFACINGVECTORS|hyperpage}{236}
+\indexentry{SteeringManager:SHOWANGULARVECTORS|hyperpage}{236}
+\indexentry{SteeringManager:SHOWTHRUSTVECTORS|hyperpage}{237}
+\indexentry{SteeringManager:SHOWRCSVECTORS|hyperpage}{237}
+\indexentry{SteeringManager:SHOWSTEERINGSTATS|hyperpage}{237}
+\indexentry{SteeringManager:WRITECSVFILES|hyperpage}{237}
+\indexentry{SteeringManager:PITCHTS|hyperpage}{237}
+\indexentry{SteeringManager:YAWTS|hyperpage}{237}
+\indexentry{SteeringManager:ROLLTS|hyperpage}{237}
+\indexentry{SteeringManager:MAXSTOPPINGTIME|hyperpage}{238}
+\indexentry{SteeringManager:ANGLEERROR|hyperpage}{238}
+\indexentry{SteeringManager:PITCHERROR|hyperpage}{238}
+\indexentry{SteeringManager:YAWERROR|hyperpage}{238}
+\indexentry{SteeringManager:ROLLERROR|hyperpage}{238}
+\indexentry{SteeringManager:PITCHTORQUEADJUST|hyperpage}{238}
+\indexentry{SteeringManager:YAWTORQUEADJUST|hyperpage}{238}
+\indexentry{SteeringManager:ROLLTORQUEADJUST|hyperpage}{238}
+\indexentry{SteeringManager:PITCHTORQUEFACTOR|hyperpage}{239}
+\indexentry{SteeringManager:YAWTORQUEFACTOR|hyperpage}{239}
+\indexentry{SteeringManager:ROLLTORQUEFACTOR|hyperpage}{239}
+\indexentry{String {[}struct{]}|hyperpage}{240}
+\indexentry{String:CONTAINS()|hyperpage}{240}
+\indexentry{String:ENDSWITH()|hyperpage}{240}
+\indexentry{String:FIND()|hyperpage}{241}
+\indexentry{String:FINDAT()|hyperpage}{241}
+\indexentry{String:FINDLAST()|hyperpage}{241}
+\indexentry{String:FINDLASTAT()|hyperpage}{241}
+\indexentry{String:INDEXOF()|hyperpage}{241}
+\indexentry{String:INSERT()|hyperpage}{241}
+\indexentry{String:LASTINDEXOF()|hyperpage}{241}
+\indexentry{String:LENGTH|hyperpage}{241}
+\indexentry{String:PADLEFT()|hyperpage}{242}
+\indexentry{String:PADRIGHT()|hyperpage}{242}
+\indexentry{String:REMOVE()|hyperpage}{242}
+\indexentry{String:REPLACE()|hyperpage}{242}
+\indexentry{String:SPLIT()|hyperpage}{242}
+\indexentry{String:STARTSWITH()|hyperpage}{242}
+\indexentry{String:SUBSTRING()|hyperpage}{243}
+\indexentry{String:TOLOWER|hyperpage}{243}
+\indexentry{String:TOUPPER|hyperpage}{243}
+\indexentry{String:TRIM|hyperpage}{243}
+\indexentry{String:TRIMEND|hyperpage}{243}
+\indexentry{String:TRIMSTART|hyperpage}{243}
+\indexentry{Terminal {[}struct{]}|hyperpage}{244}
+\indexentry{Terminal:WIDTH|hyperpage}{245}
+\indexentry{Terminal:HEIGHT|hyperpage}{245}
+\indexentry{Terminal:REVERSE|hyperpage}{245}
+\indexentry{Terminal:VISUALBEEP|hyperpage}{245}
+\indexentry{TIME|hyperpage}{246}
+\indexentry{TimeSpan {[}struct{]}|hyperpage}{247}
+\indexentry{TimeSpan:CLOCK|hyperpage}{247}
+\indexentry{TimeSpan:CALENDAR|hyperpage}{248}
+\indexentry{TimeSpan:SECOND|hyperpage}{248}
+\indexentry{TimeSpan:MINUTE|hyperpage}{248}
+\indexentry{TimeSpan:HOUR|hyperpage}{248}
+\indexentry{TimeSpan:DAY|hyperpage}{248}
+\indexentry{TimeSpan:YEAR|hyperpage}{248}
+\indexentry{TimeSpan:SECONDS|hyperpage}{248}
+\indexentry{VECDRAW()|hyperpage}{248}
+\indexentry{VECDRAW()|hyperpage}{249}
+\indexentry{CLEARVECDRAWS()|hyperpage}{249}
+\indexentry{VecDraw {[}struct{]}|hyperpage}{249}
+\indexentry{VecDraw:START|hyperpage}{250}
+\indexentry{VecDraw:VEC|hyperpage}{250}
+\indexentry{VecDraw:COLOR|hyperpage}{250}
+\indexentry{VecDraw:COLOUR|hyperpage}{250}
+\indexentry{VecDraw:LABEL|hyperpage}{250}
+\indexentry{VecDraw:SCALE|hyperpage}{250}
+\indexentry{VecDraw:SHOW|hyperpage}{250}
+\indexentry{CORE {[}struct{]}|hyperpage}{251}
+\indexentry{CORE:PART|hyperpage}{251}
+\indexentry{CORE:VESSEL|hyperpage}{251}
+\indexentry{CORE:ELEMENT|hyperpage}{251}
+\indexentry{CORE:VERSION|hyperpage}{251}
+\indexentry{CORE:BOOTFILENAME|hyperpage}{251}
+\indexentry{CORE:CURRENTVOLUME|hyperpage}{251}
+\indexentry{RTAddon {[}struct{]}|hyperpage}{257}
+\indexentry{RTADDON:AVAILABLE|hyperpage}{257}
+\indexentry{RTAddon:DELAY()|hyperpage}{257}
+\indexentry{RTAddon:KSCDELAY()|hyperpage}{257}
+\indexentry{RTAddon:HASCONNECTION()|hyperpage}{257}
+\indexentry{RTAddon:HASKSCCONNECTION()|hyperpage}{257}
+\indexentry{RTAddon:HASLOCALCONTROL()|hyperpage}{257}
+\indexentry{KACAddon {[}struct{]}|hyperpage}{258}
+\indexentry{KACAddon:AVAILABLE|hyperpage}{258}
+\indexentry{KACAddon:ALARMS()|hyperpage}{258}
+\indexentry{KACAlarm {[}struct{]}|hyperpage}{258}
+\indexentry{KACAlarm:ID|hyperpage}{258}
+\indexentry{KACAlarm:NAME|hyperpage}{259}
+\indexentry{KACAlarm:ACTION|hyperpage}{259}
+\indexentry{KACAlarm:TYPE|hyperpage}{259}
+\indexentry{KACAlarm:NOTES|hyperpage}{260}
+\indexentry{KACAlarm:REMAINING|hyperpage}{260}
+\indexentry{KACAlarm:REPEAT|hyperpage}{260}
+\indexentry{KACAlarm:REPEATPERIOD|hyperpage}{260}
+\indexentry{KACAlarm:ORIGINBODY|hyperpage}{260}
+\indexentry{KACAlarm:TARGETBODY|hyperpage}{260}
+\indexentry{ADDALARM()|hyperpage}{260}
+\indexentry{LISTALARMS()|hyperpage}{261}
+\indexentry{DELETEALARM()|hyperpage}{261}
+\indexentry{IRAddon {[}struct{]}|hyperpage}{261}
+\indexentry{IRAddon:AVAILABLE|hyperpage}{261}
+\indexentry{IRAddon:GROUPS|hyperpage}{262}
+\indexentry{IRAddon:ALLSERVOS|hyperpage}{262}
+\indexentry{IRControlGroup {[}struct{]}|hyperpage}{262}
+\indexentry{IRControlGroup:NAME|hyperpage}{262}
+\indexentry{IRControlGroup:SPEED|hyperpage}{262}
+\indexentry{IRControlGroup:EXPANDED|hyperpage}{262}
+\indexentry{IRControlGroup:FORWARDKEY|hyperpage}{263}
+\indexentry{IRControlGroup:REVERSEKEY|hyperpage}{263}
+\indexentry{IRControlGroup:SERVOS|hyperpage}{263}
+\indexentry{IRControlGroup:MOVERIGHT()|hyperpage}{263}
+\indexentry{IRControlGroup:MOVELEFT()|hyperpage}{263}
+\indexentry{IRControlGroup:MOVECENTER()|hyperpage}{263}
+\indexentry{IRControlGroup:MOVENEXTPRESET()|hyperpage}{263}
+\indexentry{IRControlGroup:MOVEPREVPRESET()|hyperpage}{263}
+\indexentry{IRControlGroup:STOP()|hyperpage}{263}
+\indexentry{IRServo {[}struct{]}|hyperpage}{264}
+\indexentry{IRServo:NAME|hyperpage}{264}
+\indexentry{IRServo:UID|hyperpage}{264}
+\indexentry{IRServo:HIGHLIGHT|hyperpage}{264}
+\indexentry{IRServo:POSITION|hyperpage}{265}
+\indexentry{IRServo:MINCFGPOSITION|hyperpage}{265}
+\indexentry{IRServo:MAXCFGPOSITION|hyperpage}{265}
+\indexentry{IRServo:MINPOSITION|hyperpage}{265}
+\indexentry{IRServo:MAXPOSITION|hyperpage}{265}
+\indexentry{IRServo:CONFIGSPEED|hyperpage}{265}
+\indexentry{IRServo:SPEED|hyperpage}{265}
+\indexentry{IRServo:CURRENTSPEED|hyperpage}{265}
+\indexentry{IRServo:ACCELERATION|hyperpage}{265}
+\indexentry{IRServo:ISMOVING|hyperpage}{266}
+\indexentry{IRServo:ISFREEMOVING|hyperpage}{266}
+\indexentry{IRServo:LOCKED|hyperpage}{266}
+\indexentry{IRServo:INVERTED|hyperpage}{266}
+\indexentry{IRServo:PART|hyperpage}{266}
+\indexentry{IRServo:MOVERIGHT()|hyperpage}{266}
+\indexentry{IRServo:MOVELEFT()|hyperpage}{266}
+\indexentry{IRServo:MOVECENTER()|hyperpage}{266}
+\indexentry{IRServo:MOVENEXTPRESET()|hyperpage}{266}
+\indexentry{IRServo:MOVEPREVPRESET()|hyperpage}{266}
+\indexentry{IRServo:STOP()|hyperpage}{267}
+\indexentry{IRServo:MOVETO()|hyperpage}{267}

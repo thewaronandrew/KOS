@@ -1,0 +1,414 @@
+\select@language {english}
+\contentsline {chapter}{\numberline {1}Downloads and Video Links}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Obtaining kOS itself}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}Change Log}{3}{section.1.2}
+\contentsline {section}{\numberline {1.3}Show and Tell, and Tutorials}{3}{section.1.3}
+\contentsline {chapter}{\numberline {2}Tutorials}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Quick Start Tutorial}{5}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}First example: Hello World}{5}{subsection.2.1.1}
+\contentsline {subsubsection}{Step 1: Start a new sandbox-mode game}{6}{subsubsection*.20}
+\contentsline {subsubsection}{Step 2: Make a vessel in the Vehicle Assembly Bay}{6}{subsubsection*.21}
+\contentsline {subsubsection}{Step 3: Put the vessel on the launchpad}{7}{subsubsection*.22}
+\contentsline {subsubsection}{Step 4: Invoke the terminal}{7}{subsubsection*.23}
+\contentsline {subsubsection}{Step 5: See what an interactive command is like}{7}{subsubsection*.24}
+\contentsline {subsubsection}{Step 6: Okay that's great, but how can you make that happen in a program script instead?}{7}{subsubsection*.25}
+\contentsline {subsubsection}{Step 7: Okay, but where is this program?}{10}{subsubsection*.26}
+\contentsline {subsubsection}{Step 8: I don't like the idea that the program is stored only on this vessel. Can't I save it somewhere better? More permanent?}{11}{subsubsection*.27}
+\contentsline {subsection}{\numberline {2.1.2}Second Example: Doing something real}{12}{subsection.2.1.2}
+\contentsline {subsubsection}{Step 1: Make a vessel}{12}{subsubsection*.28}
+\contentsline {subsubsection}{Step 2: Make the start of the script}{12}{subsubsection*.29}
+\contentsline {subsubsection}{Step 3: Make the script actually do something}{13}{subsubsection*.30}
+\contentsline {subsubsection}{Step 4: Make the script actually control steering}{15}{subsubsection*.31}
+\contentsline {subsubsection}{Step 5: Add staging logic}{16}{subsubsection*.32}
+\contentsline {subsubsection}{Step 6: Now to make it turn}{17}{subsubsection*.33}
+\contentsline {subsubsection}{Step 7: Putting it all together}{20}{subsubsection*.34}
+\contentsline {section}{\numberline {2.2}Design Patterns and Considerations with kOS}{23}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}The Major Design Patterns of kOS Control Programs}{24}{subsection.2.2.1}
+\contentsline {subsubsection}{1. Sequential Programs}{24}{subsubsection*.43}
+\contentsline {subsubsection}{2. Loops with Condition Checking}{24}{subsubsection*.44}
+\contentsline {subsubsection}{3. Loops with Triggers}{25}{subsubsection*.45}
+\contentsline {subsubsection}{Bringing It All Together}{26}{subsubsection*.46}
+\contentsline {subsection}{\numberline {2.2.2}General Guidelines for kOS Scripts}{26}{subsection.2.2.2}
+\contentsline {subsubsection}{1. Minimize Time Spent in WHEN/THEN Blocks}{26}{subsubsection*.47}
+\contentsline {subsubsection}{2. Minimize Trigger Conditions}{27}{subsubsection*.48}
+\contentsline {section}{\numberline {2.3}PID Loops in kOS}{28}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Proportional Feedback Loop (P-loop)}{30}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Proportional-Integral Feedback Loop (PI-loop)}{31}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Proportional-Integral-Derivative Feedback Loop (PID-loop)}{32}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Final Touches}{32}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Tuning a PID-loop}{33}{subsection.2.3.5}
+\contentsline {subsection}{\numberline {2.3.6}Final Thoughts}{37}{subsection.2.3.6}
+\contentsline {section}{\numberline {2.4}Advanced Tutorial}{37}{section.2.4}
+\contentsline {section}{\numberline {2.5}Introductory}{39}{section.2.5}
+\contentsline {section}{\numberline {2.6}Intermediate}{40}{section.2.6}
+\contentsline {chapter}{\numberline {3}Community Examples Library}{41}{chapter.3}
+\contentsline {chapter}{\numberline {4}General Topics}{43}{chapter.4}
+\contentsline {section}{\numberline {4.1}Catalog of Bound Variable Names}{43}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}NAMED VESSELS AND BODIES}{43}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Alias shortcuts for SHIP fields}{43}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Constants (pi, e, etc)}{44}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Terminal}{44}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.5}Core}{45}{subsection.4.1.5}
+\contentsline {subsection}{\numberline {4.1.6}Stage}{45}{subsection.4.1.6}
+\contentsline {subsection}{\numberline {4.1.7}NextNode}{45}{subsection.4.1.7}
+\contentsline {subsection}{\numberline {4.1.8}Resource Types}{45}{subsection.4.1.8}
+\contentsline {subsection}{\numberline {4.1.9}ALT ALIAS}{45}{subsection.4.1.9}
+\contentsline {subsection}{\numberline {4.1.10}ETA ALIAS}{46}{subsection.4.1.10}
+\contentsline {subsection}{\numberline {4.1.11}ENCOUNTER}{46}{subsection.4.1.11}
+\contentsline {subsection}{\numberline {4.1.12}BOOLEAN TOGGLE FIELDS:}{46}{subsection.4.1.12}
+\contentsline {subsection}{\numberline {4.1.13}Flight Control}{47}{subsection.4.1.13}
+\contentsline {subsubsection}{Controls that must be used with LOCK}{47}{subsubsection*.55}
+\contentsline {subsection}{\numberline {4.1.14}Time}{48}{subsection.4.1.14}
+\contentsline {subsection}{\numberline {4.1.15}System Variables}{48}{subsection.4.1.15}
+\contentsline {subsubsection}{Config}{48}{subsubsection*.56}
+\contentsline {subsubsection}{WARP and WARPMODE}{48}{subsubsection*.57}
+\contentsline {subsubsection}{MAPVIEW}{48}{subsubsection*.58}
+\contentsline {subsubsection}{LOADDISTANCE}{49}{subsubsection*.59}
+\contentsline {subsection}{\numberline {4.1.16}SOLARPRIMEVECTOR}{49}{subsection.4.1.16}
+\contentsline {subsubsection}{What is the Solar Prime Reference Vector?}{49}{subsubsection*.60}
+\contentsline {subsection}{\numberline {4.1.17}Addons}{49}{subsection.4.1.17}
+\contentsline {subsection}{\numberline {4.1.18}Colors}{49}{subsection.4.1.18}
+\contentsline {section}{\numberline {4.2}CPU Vessel (SHIP)}{49}{section.4.2}
+\contentsline {section}{\numberline {4.3}The kOS CPU hardware}{50}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Update Ticks and Physics Ticks}{50}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Triggers}{51}{subsection.4.3.2}
+\contentsline {subsubsection}{Do Not Loop a Long Time in a Trigger Body!}{51}{subsubsection*.67}
+\contentsline {subsubsection}{But I Want a Loop!!}{52}{subsubsection*.68}
+\contentsline {subsubsection}{Wait!!!}{52}{subsubsection*.69}
+\contentsline {subsection}{\numberline {4.3.3}The Frozen Universe}{53}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.4}kOS Control Panel}{53}{section.4.4}
+\contentsline {section}{\numberline {4.5}The kOS Telnet Server}{53}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Telnet clients}{54}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Using it}{55}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Special Keys}{57}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}HOWTO: Putty client}{58}{subsection.4.5.4}
+\contentsline {subsection}{\numberline {4.5.5}HOWTO: Command-line client}{58}{subsection.4.5.5}
+\contentsline {subsection}{\numberline {4.5.6}HOWTO: Other client}{59}{subsection.4.5.6}
+\contentsline {subsection}{\numberline {4.5.7}Security}{59}{subsection.4.5.7}
+\contentsline {subsection}{\numberline {4.5.8}Homemade telnet clients}{60}{subsection.4.5.8}
+\contentsline {section}{\numberline {4.6}Files and Volumes}{62}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Script Files}{62}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}File Storage Behind the Scenes}{62}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}You can get more space by paying extra cost in money and mass}{63}{subsection.4.6.3}
+\contentsline {subsection}{\numberline {4.6.4}Multiple Volumes on One Vessel}{64}{subsection.4.6.4}
+\contentsline {subsection}{\numberline {4.6.5}Naming Volumes}{64}{subsection.4.6.5}
+\contentsline {subsection}{\numberline {4.6.6}Archive}{64}{subsection.4.6.6}
+\contentsline {section}{\numberline {4.7}KerboScript Machine Code}{65}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Compiling to a KSM File}{65}{subsection.4.7.1}
+\contentsline {subsubsection}{Why Do I Care?}{65}{subsubsection*.89}
+\contentsline {subsection}{\numberline {4.7.2}How to Use KSM Files}{66}{subsection.4.7.2}
+\contentsline {subsection}{\numberline {4.7.3}Default File Naming Conventions}{66}{subsection.4.7.3}
+\contentsline {subsection}{\numberline {4.7.4}Downsides to Using KSM Files}{67}{subsection.4.7.4}
+\contentsline {subsection}{\numberline {4.7.5}More Reading and Fiddling with Your Bits}{67}{subsection.4.7.5}
+\contentsline {section}{\numberline {4.8}The Name Tag System}{67}{section.4.8}
+\contentsline {subsection}{\numberline {4.8.1}Giving a Part a Name}{67}{subsection.4.8.1}
+\contentsline {subsection}{\numberline {4.8.2}Cloning with Symmetry}{67}{subsection.4.8.2}
+\contentsline {subsection}{\numberline {4.8.3}Where is it saved?}{69}{subsection.4.8.3}
+\contentsline {subsection}{\numberline {4.8.4}Examples of Using the Name}{69}{subsection.4.8.4}
+\contentsline {section}{\numberline {4.9}Ship Parts and PartModules}{69}{section.4.9}
+\contentsline {subsection}{\numberline {4.9.1}Tutorial}{70}{subsection.4.9.1}
+\contentsline {subsection}{\numberline {4.9.2}Parts}{70}{subsection.4.9.2}
+\contentsline {subsubsection}{Accessing the parts by various naming systems}{70}{subsubsection*.94}
+\contentsline {subsubsection}{Accessing the parts list as a tree}{71}{subsubsection*.95}
+\contentsline {subsubsection}{Accessing the parts list as a list}{71}{subsubsection*.96}
+\contentsline {subsubsection}{Shortcuts to smaller lists of parts}{71}{subsubsection*.97}
+\contentsline {subsection}{\numberline {4.9.3}PartModules and the right-click menu:}{73}{subsection.4.9.3}
+\contentsline {subsubsection}{PartModules, Stock vs Mods:}{73}{subsubsection*.98}
+\contentsline {subsubsection}{PartModules and ModuleManager-like behavior:}{73}{subsubsection*.99}
+\contentsline {subsection}{\numberline {4.9.4}What a PartModule means to a kOS script}{73}{subsection.4.9.4}
+\contentsline {subsubsection}{KSPFields}{73}{subsubsection*.100}
+\contentsline {subsubsection}{KSPEvents}{74}{subsubsection*.101}
+\contentsline {subsubsection}{KSPActions:}{74}{subsubsection*.102}
+\contentsline {subsection}{\numberline {4.9.5}Exploring what's there to find Field/Event/Action Names:}{75}{subsection.4.9.5}
+\contentsline {subsubsection}{What PartModules are there on a part?}{75}{subsubsection*.103}
+\contentsline {subsubsection}{What are the names of the stuff that a PartModule can do?}{75}{subsubsection*.104}
+\contentsline {subsubsection}{BE WARNED! Names are able to dynamically change!}{75}{subsubsection*.105}
+\contentsline {section}{\numberline {4.10}Career Limits}{76}{section.4.10}
+\contentsline {subsection}{\numberline {4.10.1}The rules being enforced}{76}{subsection.4.10.1}
+\contentsline {subsection}{\numberline {4.10.2}Structure}{76}{subsection.4.10.2}
+\contentsline {chapter}{\numberline {5}The \textbf {KerboScript} Language}{79}{chapter.5}
+\contentsline {section}{\numberline {5.1}General Features of the \textbf {KerboScript} Language}{79}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Case Insensitivity}{79}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Expressions}{79}{subsection.5.1.2}
+\contentsline {subsubsection}{1. Numbers}{79}{subsubsection*.124}
+\contentsline {subsubsection}{2. Strings}{80}{subsubsection*.125}
+\contentsline {subsubsection}{3. Structures}{80}{subsubsection*.126}
+\contentsline {subsubsection}{4. Structure Methods}{80}{subsubsection*.127}
+\contentsline {subsection}{\numberline {5.1.3}Short-curcuiting booleans}{80}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Late Typing}{81}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {5.1.5}Lazy Globals (variable declarations optional)}{81}{subsection.5.1.5}
+\contentsline {subsection}{\numberline {5.1.6}User Functions}{81}{subsection.5.1.6}
+\contentsline {subsection}{\numberline {5.1.7}Structures}{82}{subsection.5.1.7}
+\contentsline {section}{\numberline {5.2}\textbf {KerboScript} Syntax Specification}{82}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}General Rules}{82}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Braces (statement blocks)}{83}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Functions (built-in)}{84}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Suffixes as Functions (Methods)}{85}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}User Functions}{85}{subsection.5.2.5}
+\contentsline {subsection}{\numberline {5.2.6}Built-In Special Variable Names}{85}{subsection.5.2.6}
+\contentsline {subsection}{\numberline {5.2.7}What does not exist (yet?)}{85}{subsection.5.2.7}
+\contentsline {section}{\numberline {5.3}Flow Control}{86}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}\texttt {BREAK}}{86}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}\texttt {IF} / \texttt {ELSE}}{86}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}\texttt {LOCK}}{87}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}\texttt {UNLOCK}}{87}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.5}\texttt {UNTIL} loop}{87}{subsection.5.3.5}
+\contentsline {subsection}{\numberline {5.3.6}\texttt {FOR} loop}{88}{subsection.5.3.6}
+\contentsline {subsection}{\numberline {5.3.7}\texttt {FROM} loop}{89}{subsection.5.3.7}
+\contentsline {subsubsection}{Syntax:}{89}{subsubsection*.148}
+\contentsline {subsubsection}{What the parts mean}{89}{subsubsection*.149}
+\contentsline {subsubsection}{Why some braces are mandatory}{89}{subsubsection*.150}
+\contentsline {subsubsection}{Why \texttt {DO} is mandatory}{90}{subsubsection*.151}
+\contentsline {subsubsection}{Other formatting examples}{90}{subsubsection*.152}
+\contentsline {subsubsection}{The literal meaning of \texttt {FROM}}{91}{subsubsection*.153}
+\contentsline {subsubsection}{An example of why the FROM loop is useful}{91}{subsubsection*.154}
+\contentsline {subsection}{\numberline {5.3.8}\texttt {WAIT}}{91}{subsection.5.3.8}
+\contentsline {subsection}{\numberline {5.3.9}\texttt {WHEN} / \texttt {THEN}}{92}{subsection.5.3.9}
+\contentsline {subsection}{\numberline {5.3.10}\texttt {ON}}{92}{subsection.5.3.10}
+\contentsline {subsection}{\numberline {5.3.11}\texttt {PRESERVE}}{93}{subsection.5.3.11}
+\contentsline {subsection}{\numberline {5.3.12}\texttt {DECLARE FUNCTION}}{94}{subsection.5.3.12}
+\contentsline {subsection}{\numberline {5.3.13}Boolean Operators}{94}{subsection.5.3.13}
+\contentsline {section}{\numberline {5.4}Variables \& Statements}{94}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}\texttt {DECLARE .. TO/IS}}{95}{subsection.5.4.1}
+\contentsline {subsubsection}{What it does:}{95}{subsubsection*.178}
+\contentsline {subsubsection}{Allowed Syntax:}{95}{subsubsection*.179}
+\contentsline {paragraph}{All the following are legal ``declare'' statements:}{95}{paragraph*.180}
+\contentsline {paragraph}{Detailed Description of the syntax:}{96}{paragraph*.182}
+\contentsline {subsubsection}{See Scoping:}{96}{subsubsection*.183}
+\contentsline {subsubsection}{Initializer required in DECLARE}{97}{subsubsection*.184}
+\contentsline {subsection}{\numberline {5.4.2}\texttt {DECLARE PARAMETER}}{97}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}\texttt {SET}}{98}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}\texttt {DEFINED}}{98}{subsection.5.4.4}
+\contentsline {subsubsection}{Difference between SET and DECLARE LOCAL and DECLARE GLOBAL}{99}{subsubsection*.185}
+\contentsline {subsubsection}{When to use GLOBAL}{99}{subsubsection*.186}
+\contentsline {subsection}{\numberline {5.4.5}\texttt {LOCK}}{99}{subsection.5.4.5}
+\contentsline {subsubsection}{Calling a LOCK that was created in another file}{100}{subsubsection*.187}
+\contentsline {subsubsection}{Local lock}{100}{subsubsection*.188}
+\contentsline {paragraph}{Why do I care about a local lock?}{100}{paragraph*.189}
+\contentsline {subsection}{\numberline {5.4.6}\texttt {TOGGLE}}{101}{subsection.5.4.6}
+\contentsline {subsection}{\numberline {5.4.7}\texttt {ON}}{101}{subsection.5.4.7}
+\contentsline {subsection}{\numberline {5.4.8}\texttt {OFF}}{101}{subsection.5.4.8}
+\contentsline {subsection}{\numberline {5.4.9}Scoping terms}{101}{subsection.5.4.9}
+\contentsline {subsection}{\numberline {5.4.10}Scoping syntax}{102}{subsection.5.4.10}
+\contentsline {subsubsection}{Presumed defaults}{102}{subsubsection*.190}
+\contentsline {subsubsection}{Explicit scoping keywords}{102}{subsubsection*.191}
+\contentsline {subsubsection}{Explicit Scoping required for @lazyglobal off}{102}{subsubsection*.192}
+\contentsline {paragraph}{Locals stated at the global level are global}{103}{paragraph*.193}
+\contentsline {paragraph}{Nesting}{103}{paragraph*.194}
+\contentsline {subsubsection}{Scoping and Triggers:}{103}{subsubsection*.195}
+\contentsline {subsubsection}{\texttt {@LAZYGLOBAL} directive}{104}{subsubsection*.196}
+\contentsline {paragraph}{@LAZYGLOBAL Can only exist at the top of your code.}{104}{paragraph*.197}
+\contentsline {paragraph}{@LAZYGLOBAL Makes \texttt {LOCAL} and \texttt {GLOBAL} mandatory}{104}{paragraph*.198}
+\contentsline {paragraph}{Longer Example of use}{105}{paragraph*.199}
+\contentsline {section}{\numberline {5.5}\textbf {KerboScript} User Functions}{105}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Help for the new user - What is a Function?}{106}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}\texttt {DECLARE FUNCTION}}{106}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}\texttt {DECLARE PARAMETER}}{107}{subsection.5.5.3}
+\contentsline {subsection}{\numberline {5.5.4}Calling a function}{108}{subsection.5.5.4}
+\contentsline {subsubsection}{Functions and the terminal interpreter}{108}{subsubsection*.218}
+\contentsline {subsubsection}{Calling a function without parentheses (please don't)}{108}{subsubsection*.219}
+\contentsline {paragraph}{Omitting parentheses only works in the same file}{108}{paragraph*.220}
+\contentsline {subsection}{\numberline {5.5.5}\texttt {LOCAL .. TO}}{109}{subsection.5.5.5}
+\contentsline {subsubsection}{Initializers are now mandatory for the DECLARE statement}{109}{subsubsection*.221}
+\contentsline {subsubsection}{Difference between declare and set}{109}{subsubsection*.222}
+\contentsline {subsection}{\numberline {5.5.6}\texttt {RETURN}}{110}{subsection.5.5.6}
+\contentsline {subsection}{\numberline {5.5.7}Passing by value}{110}{subsection.5.5.7}
+\contentsline {subsubsection}{Important exception to passing by value - structures}{111}{subsubsection*.223}
+\contentsline {subsection}{\numberline {5.5.8}Nesting functions inside functions}{111}{subsection.5.5.8}
+\contentsline {subsection}{\numberline {5.5.9}Recursion}{112}{subsection.5.5.9}
+\contentsline {subsection}{\numberline {5.5.10}User Function Gotchas}{112}{subsection.5.5.10}
+\contentsline {subsubsection}{Calling program's functions from the interpreter}{112}{subsubsection*.224}
+\contentsline {subsubsection}{Inconsistent returns}{112}{subsubsection*.225}
+\contentsline {subsubsection}{Accidentally using globals}{113}{subsubsection*.226}
+\contentsline {chapter}{\numberline {6}Mathematics and Basic Geometry}{115}{chapter.6}
+\contentsline {section}{\numberline {6.1}Fundamental Constants}{115}{section.6.1}
+\contentsline {section}{\numberline {6.2}Mathematical Functions}{116}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Trigonometric Functions}{118}{subsection.6.2.1}
+\contentsline {section}{\numberline {6.3}Vectors}{119}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Creation}{119}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Structure}{119}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Operations and Methods}{121}{subsection.6.3.3}
+\contentsline {section}{\numberline {6.4}Directions}{123}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Creation}{124}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Structure}{125}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.3}Operations and Methods}{127}{subsection.6.4.3}
+\contentsline {subsection}{\numberline {6.4.4}Vectors and Directions}{128}{subsection.6.4.4}
+\contentsline {section}{\numberline {6.5}Geographic Coordinates}{128}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Creation}{129}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Structure}{129}{subsection.6.5.2}
+\contentsline {subsection}{\numberline {6.5.3}Examples Usage}{130}{subsection.6.5.3}
+\contentsline {section}{\numberline {6.6}Reference Frames}{130}{section.6.6}
+\contentsline {subsection}{\numberline {6.6.1}Raw Orientation}{131}{subsection.6.6.1}
+\contentsline {subsection}{\numberline {6.6.2}Origin Position}{132}{subsection.6.6.2}
+\contentsline {subsection}{\numberline {6.6.3}Converting}{132}{subsection.6.6.3}
+\contentsline {chapter}{\numberline {7}Command Reference}{135}{chapter.7}
+\contentsline {section}{\numberline {7.1}Flight Control}{135}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Cooked Control}{135}{subsection.7.1.1}
+\contentsline {subsubsection}{Unlocking controls}{136}{subsubsection*.321}
+\contentsline {subsubsection}{Advantages/Disadvantages}{136}{subsubsection*.322}
+\contentsline {subsection}{\numberline {7.1.2}Raw Control}{136}{subsection.7.1.2}
+\contentsline {subsubsection}{Raw Flight Controls Reference}{137}{subsubsection*.323}
+\contentsline {subsubsection}{Unlocking controls}{138}{subsubsection*.342}
+\contentsline {subsubsection}{Advantages/Disadvantages}{139}{subsubsection*.343}
+\contentsline {subsection}{\numberline {7.1.3}Pilot Input}{139}{subsection.7.1.3}
+\contentsline {subsection}{\numberline {7.1.4}Ship Systems}{140}{subsection.7.1.4}
+\contentsline {subsection}{\numberline {7.1.5}Time Warping}{142}{subsection.7.1.5}
+\contentsline {section}{\numberline {7.2}Predictions of Flight Path}{143}{section.7.2}
+\contentsline {section}{\numberline {7.3}\texttt {LIST} Command}{144}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}\texttt {FOR} Loop}{145}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Available Listable Keywords}{145}{subsection.7.3.2}
+\contentsline {subsubsection}{Universal Lists}{145}{subsubsection*.374}
+\contentsline {subsubsection}{Vessel Lists}{145}{subsubsection*.375}
+\contentsline {subsubsection}{File System Lists}{145}{subsubsection*.376}
+\contentsline {section}{\numberline {7.4}Querying a vessel's parts}{146}{section.7.4}
+\contentsline {section}{\numberline {7.5}File I/O}{147}{section.7.5}
+\contentsline {subsection}{\numberline {7.5.1}Volume and Filename arguments}{147}{subsection.7.5.1}
+\contentsline {subsection}{\numberline {7.5.2}\texttt {COMPILE program (TO compiledProgram).}}{148}{subsection.7.5.2}
+\contentsline {subsection}{\numberline {7.5.3}\texttt {COPY programFile FROM/TO voumeNumber.}}{149}{subsection.7.5.3}
+\contentsline {subsubsection}{Arguments}{149}{subsubsection*.377}
+\contentsline {subsection}{\numberline {7.5.4}\texttt {DELETE filename FROM volumeNumber.}}{149}{subsection.7.5.4}
+\contentsline {subsubsection}{Arguments}{149}{subsubsection*.378}
+\contentsline {subsection}{\numberline {7.5.5}\texttt {EDIT program.}}{149}{subsection.7.5.5}
+\contentsline {subsubsection}{Arguments}{149}{subsubsection*.379}
+\contentsline {subsection}{\numberline {7.5.6}\texttt {LOG text TO filename.}}{150}{subsection.7.5.6}
+\contentsline {subsubsection}{Arguments}{150}{subsubsection*.380}
+\contentsline {subsection}{\numberline {7.5.7}\texttt {RENAME name1 TO name2.}}{150}{subsection.7.5.7}
+\contentsline {subsubsection}{Arguments}{150}{subsubsection*.381}
+\contentsline {subsection}{\numberline {7.5.8}\texttt {RUN \textless {}program\textgreater {}.}}{150}{subsection.7.5.8}
+\contentsline {subsubsection}{Arguments}{150}{subsubsection*.382}
+\contentsline {subsubsection}{Important exceptions to the usual filename rules for RUN}{151}{subsubsection*.383}
+\contentsline {subsection}{\numberline {7.5.9}\texttt {SWITCH TO \textless {}volumeNumber\textgreater {}.}}{151}{subsection.7.5.9}
+\contentsline {subsubsection}{Special handling of files starting with ``boot'' (example \texttt {boot.ks})}{151}{subsubsection*.384}
+\contentsline {section}{\numberline {7.6}Terminal and game environment}{152}{section.7.6}
+\contentsline {subsection}{\numberline {7.6.1}GUI display tools}{153}{subsection.7.6.1}
+\contentsline {section}{\numberline {7.7}Transferring resources}{154}{section.7.7}
+\contentsline {subsection}{\numberline {7.7.1}Resource}{154}{subsection.7.7.1}
+\contentsline {subsection}{\numberline {7.7.2}Source and Destination}{154}{subsection.7.7.2}
+\contentsline {subsection}{\numberline {7.7.3}Examples}{154}{subsection.7.7.3}
+\contentsline {chapter}{\numberline {8}Structure Reference}{157}{chapter.8}
+\contentsline {section}{\numberline {8.1}Orbits}{158}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Orbit}{158}{subsection.8.1.1}
+\contentsline {subsubsection}{Structure}{159}{subsubsection*.399}
+\contentsline {subsubsection}{Deprecated Suffix}{161}{subsubsection*.420}
+\contentsline {subsubsection}{Transition Names}{162}{subsubsection*.422}
+\contentsline {subsection}{\numberline {8.1.2}Orbitable (Vessels and Bodies)}{162}{subsection.8.1.2}
+\contentsline {subsection}{\numberline {8.1.3}OrbitableVelocity}{166}{subsection.8.1.3}
+\contentsline {section}{\numberline {8.2}Celestial Bodies}{167}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Atmosphere}{167}{subsection.8.2.1}
+\contentsline {subsubsection}{Atmospheric Math}{168}{subsubsection*.458}
+\contentsline {subsection}{\numberline {8.2.2}Body}{168}{subsection.8.2.2}
+\contentsline {subsubsection}{Predefined Celestial Bodies}{168}{subsubsection*.459}
+\contentsline {section}{\numberline {8.3}Vessels and Parts}{170}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}AggregateResource}{170}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}ALT}{171}{subsection.8.3.2}
+\contentsline {subsection}{\numberline {8.3.3}CrewMember}{171}{subsection.8.3.3}
+\contentsline {subsection}{\numberline {8.3.4}DockingPort}{172}{subsection.8.3.4}
+\contentsline {subsection}{\numberline {8.3.5}Element}{175}{subsection.8.3.5}
+\contentsline {subsection}{\numberline {8.3.6}Engine}{176}{subsection.8.3.6}
+\contentsline {subsection}{\numberline {8.3.7}ETA}{179}{subsection.8.3.7}
+\contentsline {subsection}{\numberline {8.3.8}Gimbal}{180}{subsection.8.3.8}
+\contentsline {subsection}{\numberline {8.3.9}Maneuver Node}{181}{subsection.8.3.9}
+\contentsline {subsubsection}{Creation}{181}{subsubsection*.542}
+\contentsline {subsubsection}{Structure}{182}{subsubsection*.547}
+\contentsline {subsection}{\numberline {8.3.10}Part}{184}{subsection.8.3.10}
+\contentsline {subsection}{\numberline {8.3.11}PartModule}{188}{subsection.8.3.11}
+\contentsline {subsubsection}{Notes}{191}{subsubsection*.595}
+\contentsline {paragraph}{KSPFields}{191}{paragraph*.596}
+\contentsline {paragraph}{KSPEvents}{191}{paragraph*.597}
+\contentsline {paragraph}{KSPActions}{192}{paragraph*.598}
+\contentsline {subsection}{\numberline {8.3.12}Resource}{192}{subsection.8.3.12}
+\contentsline {subsection}{\numberline {8.3.13}ScienceExperimentModule}{193}{subsection.8.3.13}
+\contentsline {subsection}{\numberline {8.3.14}Sensor}{195}{subsection.8.3.14}
+\contentsline {subsection}{\numberline {8.3.15}Stage}{196}{subsection.8.3.15}
+\contentsline {subsubsection}{Structure}{196}{subsubsection*.621}
+\contentsline {subsection}{\numberline {8.3.16}Vessel}{196}{subsection.8.3.16}
+\contentsline {subsection}{\numberline {8.3.17}VesselSensors}{203}{subsection.8.3.17}
+\contentsline {section}{\numberline {8.4}Waypoints}{204}{section.8.4}
+\contentsline {section}{\numberline {8.5}Configurations and Miscellany}{206}{section.8.5}
+\contentsline {subsection}{\numberline {8.5.1}Colors}{206}{subsection.8.5.1}
+\contentsline {subsection}{\numberline {8.5.2}Configuration of kOS}{209}{subsection.8.5.2}
+\contentsline {subsection}{\numberline {8.5.3}File Information}{211}{subsection.8.5.3}
+\contentsline {subsection}{\numberline {8.5.4}Part Highlighting}{212}{subsection.8.5.4}
+\contentsline {subsection}{\numberline {8.5.5}Iterator}{213}{subsection.8.5.5}
+\contentsline {subsection}{\numberline {8.5.6}KUniverse 4th wall methods}{214}{subsection.8.5.6}
+\contentsline {subsection}{\numberline {8.5.7}Lexicon}{216}{subsection.8.5.7}
+\contentsline {subsubsection}{Lexicons are case-insensitive}{217}{subsubsection*.739}
+\contentsline {subsubsection}{Constructing a lexicon}{217}{subsubsection*.740}
+\contentsline {subsubsection}{Structure}{217}{subsubsection*.741}
+\contentsline {subsubsection}{Access to Individual Elements}{219}{subsubsection*.755}
+\contentsline {subsubsection}{Implicit ADD when using index brackets with new key values}{219}{subsubsection*.756}
+\contentsline {subsubsection}{Examples}{220}{subsubsection*.757}
+\contentsline {subsection}{\numberline {8.5.8}List}{220}{subsection.8.5.8}
+\contentsline {subsubsection}{Constructing a list}{220}{subsubsection*.758}
+\contentsline {subsubsection}{Structure}{221}{subsubsection*.759}
+\contentsline {subsubsection}{Access to Individual Elements}{222}{subsubsection*.772}
+\contentsline {subsubsection}{Multidimensional Arrays}{223}{subsubsection*.773}
+\contentsline {subsubsection}{Comparing two lists}{224}{subsubsection*.774}
+\contentsline {subsection}{\numberline {8.5.9}Vessel Load Distance}{225}{subsection.8.5.9}
+\contentsline {subsection}{\numberline {8.5.10}Situation Load Distance}{227}{subsection.8.5.10}
+\contentsline {subsection}{\numberline {8.5.11}PIDLoop}{229}{subsection.8.5.11}
+\contentsline {subsubsection}{PIDLoop Update Derivation}{232}{subsubsection*.799}
+\contentsline {subsection}{\numberline {8.5.12}Resource Transfer}{233}{subsection.8.5.12}
+\contentsline {subsubsection}{Structure}{233}{subsubsection*.800}
+\contentsline {subsection}{\numberline {8.5.13}SteeringManager}{235}{subsection.8.5.13}
+\contentsline {subsection}{\numberline {8.5.14}String}{239}{subsection.8.5.14}
+\contentsline {subsubsection}{Creating strings}{239}{subsubsection*.835}
+\contentsline {subsubsection}{Structure}{240}{subsubsection*.836}
+\contentsline {subsubsection}{Access to Individual Characters}{243}{subsubsection*.860}
+\contentsline {subsection}{\numberline {8.5.15}Terminal}{244}{subsection.8.5.15}
+\contentsline {subsubsection}{Structure}{244}{subsubsection*.861}
+\contentsline {subsection}{\numberline {8.5.16}Time Span}{246}{subsection.8.5.16}
+\contentsline {subsubsection}{TimeSpan represents \emph {SIMULATED} time}{246}{subsubsection*.868}
+\contentsline {subsubsection}{Special variable TIME}{246}{subsubsection*.869}
+\contentsline {paragraph}{Using TIME to detect when the physics have been updated `one tick'}{247}{paragraph*.871}
+\contentsline {subsection}{\numberline {8.5.17}Drawing Vectors on the Screen}{248}{subsection.8.5.17}
+\contentsline {section}{\numberline {8.6}Core}{251}{section.8.6}
+\contentsline {chapter}{\numberline {9}Addon Reference}{253}{chapter.9}
+\contentsline {section}{\numberline {9.1}Action Groups Extended}{253}{section.9.1}
+\contentsline {section}{\numberline {9.2}RemoteTech}{256}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}Interaction with kOS}{256}{subsection.9.2.1}
+\contentsline {section}{\numberline {9.3}Kerbal Alarm Clock}{258}{section.9.3}
+\contentsline {subsection}{\numberline {9.3.1}Available Functions}{260}{subsection.9.3.1}
+\contentsline {section}{\numberline {9.4}Infernal Robotics}{261}{section.9.4}
+\contentsline {section}{\numberline {9.5}\texttt {ADDONS:AGX:AVAILABLE}}{267}{section.9.5}
+\contentsline {section}{\numberline {9.6}\texttt {ADDONS:RT:AVAILABLE}}{267}{section.9.6}
+\contentsline {section}{\numberline {9.7}\texttt {ADDONS:KAC:AVAILABLE}}{268}{section.9.7}
+\contentsline {section}{\numberline {9.8}\texttt {ADDONS:IR:AVAILABLE}}{268}{section.9.8}
+\contentsline {chapter}{\numberline {10}Contribute}{269}{chapter.10}
+\contentsline {section}{\numberline {10.1}How to Contribute to this Project}{269}{section.10.1}
+\contentsline {section}{\numberline {10.2}How to Edit this Documentation}{269}{section.10.2}
+\contentsline {chapter}{\numberline {11}Changes from version to version}{271}{chapter.11}
+\contentsline {section}{\numberline {11.1}Changes in 0.17.3}{272}{section.11.1}
+\contentsline {subsection}{\numberline {11.1.1}New Looping control flow, the FROM loop}{272}{subsection.11.1.1}
+\contentsline {subsection}{\numberline {11.1.2}Short-Circuit Booleans}{272}{subsection.11.1.2}
+\contentsline {subsection}{\numberline {11.1.3}New Infernal Robotics interface}{272}{subsection.11.1.3}
+\contentsline {subsection}{\numberline {11.1.4}New RemoteTech interface}{272}{subsection.11.1.4}
+\contentsline {subsection}{\numberline {11.1.5}Deprecated INCOMMRANGE}{272}{subsection.11.1.5}
+\contentsline {subsection}{\numberline {11.1.6}Updated thrust calculations for 1.0.x}{272}{subsection.11.1.6}
+\contentsline {subsection}{\numberline {11.1.7}New CORE struct}{272}{subsection.11.1.7}
+\contentsline {subsection}{\numberline {11.1.8}Updated boot file name handling}{273}{subsection.11.1.8}
+\contentsline {subsection}{\numberline {11.1.9}Docking port, element, and vessel references}{273}{subsection.11.1.9}
+\contentsline {subsection}{\numberline {11.1.10}New sounds and terminal features}{273}{subsection.11.1.10}
+\contentsline {subsection}{\numberline {11.1.11}Clear vecdraws all at once}{273}{subsection.11.1.11}
+\contentsline {section}{\numberline {11.2}Changes in 0.17.0}{273}{section.11.2}
+\contentsline {subsection}{\numberline {11.2.1}Variables can now be local}{273}{subsection.11.2.1}
+\contentsline {subsection}{\numberline {11.2.2}Kerboscript has User Functions}{273}{subsection.11.2.2}
+\contentsline {subsection}{\numberline {11.2.3}Community Examples Library}{273}{subsection.11.2.3}
+\contentsline {subsection}{\numberline {11.2.4}Physics Ticks not Update Ticks}{274}{subsection.11.2.4}
+\contentsline {subsection}{\numberline {11.2.5}Ability to use SAS modes from KSP 0.90}{274}{subsection.11.2.5}
+\contentsline {subsection}{\numberline {11.2.6}Blizzy ToolBar Support}{274}{subsection.11.2.6}
+\contentsline {subsection}{\numberline {11.2.7}Ability to define colors using HSV}{274}{subsection.11.2.7}
+\contentsline {subsection}{\numberline {11.2.8}Ability to highlight a part in color}{274}{subsection.11.2.8}
+\contentsline {subsection}{\numberline {11.2.9}Better user interface for selecting boot scripts}{274}{subsection.11.2.9}
+\contentsline {subsection}{\numberline {11.2.10}Disks can be made bigger with tweakable slider}{274}{subsection.11.2.10}
+\contentsline {subsection}{\numberline {11.2.11}You Can Transfer Resources}{274}{subsection.11.2.11}
+\contentsline {subsection}{\numberline {11.2.12}Kerbal Alarm Clock support}{274}{subsection.11.2.12}
+\contentsline {subsection}{\numberline {11.2.13}Query the docked elements of a vessel}{275}{subsection.11.2.13}
+\contentsline {subsection}{\numberline {11.2.14}Support for Action Groups Extended}{275}{subsection.11.2.14}
+\contentsline {subsection}{\numberline {11.2.15}LIST constructor can now initialize lists}{275}{subsection.11.2.15}
+\contentsline {subsection}{\numberline {11.2.16}ISDEAD suffix for Vessel}{275}{subsection.11.2.16}
+\contentsline {chapter}{\numberline {12}About \textbf {kOS} and \textbf {KerboScript}}{277}{chapter.12}
+\contentsline {chapter}{\numberline {13}Introduction to \textbf {kOS} and \textbf {KerboScript}}{279}{chapter.13}
+\contentsline {section}{\numberline {13.1}Installation}{279}{section.13.1}
+\contentsline {section}{\numberline {13.2}KerboScript}{279}{section.13.2}
+\contentsline {chapter}{\numberline {14}Indices and tables}{281}{chapter.14}
